@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#mostrador{
+			margin:auto;
+			margin-top: 40px;
+			width: 252px;
+		}
+
+		.espaco{
+			width: 80px;
+			height: 60px;
+			border: 2px solid #000;
+			float: left;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		.tabuleiro{
+			width: 252px;
+			height: 252px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="mostrador">
+		<p style="float: left; margin-right: 10px;">Quem joga:</p>
+		<img src="" border="0" height="50">
+		<b>COMPUTADOR</b> <input type="checkbox" id="CPU" name="" checked=""><br/>
+		<p style="margin:left;">Pontos do Jogador 1:</p>
+		<input type="text" style="width:20px; float:right; margin-right: 80px; height: 10px;" value="" id="P1" readonly="readonly">
+		<br/>
+		<p style="margin:left;">Pontos do Jogador 2:</p>
+		<input type="text" style="width:20px; float:right; margin-right: 80px; height: 10px;" value="" id="P2" readonly="readonly">
+	</div>
+	<br/><br/><br/>
+	<div class="tabuleiro">
+
+		<div id="Cel1" class="espaco" jogada=""></div>
+		<div id="Cel2" class="espaco" jogada=""></div>
+		<div id="Cel3" class="espaco" jogada=""></div>
+
+		<div id="Cel4" class="espaco" jogada=""></div>
+		<div id="Cel5" class="espaco" jogada=""></div>
+		<div id="Cel6" class="espaco" jogada=""></div>
+
+		<div id="Cel7" class="espaco" jogada=""></div>
+		<div id="Cel8" class="espaco" jogada=""></div>
+		<div id="Cel9" class="espaco" jogada=""></div>
+
+	</div>
+	<script type="text/javascript" src="C:\Users\user\Desktop\trabalho Ricardo\js/Game.js"></script>
+</body>
+</html>
